@@ -1,0 +1,173 @@
+
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#hero{
+    background-color: #161516;
+
+}
+
+.hero{
+    background-image: url(./image/frank-mckenna-tjX_sniNzgQ-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 90vh;
+}
+
+.track{
+    background-color: gray;
+    background: rgba(255, 255, 255, 0.51);
+    margin: auto;
+    margin-top: 60px;
+    background-blend-mode: soft-light;
+}
+
+
+
+
+/* SERVICES */
+
+
+@media (min-width: 768px){
+    .services{
+        display: flex;
+        justify-content: space-between;
+    } 
+
+}
+
+.service{
+    background-color: #161515;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 24%;
+  
+
+}
+
+
+.service1{
+    background-image: url(./image/khadeeja-yasser-9jLYl1TmZAg-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    color: #ffffff;
+    
+} 
+
+.service2{
+    background-image: url(./image/adeolu-eletu-E7RLgUjjazc-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    color: #ffffff;
+} 
+
+.service3{
+    background-image: url(./image/rinson-chory-2vPGGOU-wLA-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    color: #ffffff;
+} 
+
+.service4{
+    background-image: url(./image/johannes-hofmann-vDmn0V4P7xU-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    color: #ffffff;
+} 
+ 
+
+
+
+
+/* Why choose us */
+
+#choose{
+    background-image: url("image/brendan-church-pKeF6Tt3c08-unsplash\ 2.png");
+    background-repeat: no-repeat;
+    background-color:#161515 ;
+  background-size: 100%;
+  background-blend-mode: soft-light;
+ 
+}
+
+/* PME RATE */
+
+
+
+ ul{
+     list-style: none;
+ }
+
+ .list li {
+      list-style-image: url(./image/Ellipse\ 2.png);
+      margin-top: 2em;
+      
+    }
+
+
+
+/* REQUEST QUOTE */
+#request{
+    background-color: #2D882D;
+
+}
+
+/* CUSTOMER REVIEW */
+
+
+.checked{
+    color:  #CA940B;;
+}
+
+
+
+
+/* FOOTER */
+
+#footer{
+    background-color:  #141814;
+}
+
+.footer h6{
+    color:  #88CC88;
+}
+
+
+.footer p{
+    color:  #fff;
+}
+
+.footer li{
+    list-style-type: none;
+    color: #fff;
+}
+
+.footer li:hover{
+    color:#88CC88;
+    text-decoration: none;
+}
+
+.social-media i{
+    color: #fff;
+
+}
+
+.owl-nav {
+    text-align: center !important;
+}
+
+.slider{
+    background: rgba(136, 204, 136, 0.12);
+}

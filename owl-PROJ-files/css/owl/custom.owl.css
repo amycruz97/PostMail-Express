@@ -1,0 +1,225 @@
+/* 
+body {
+    background: blueviolet;
+} */
+
+/* .carousel-wrap {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+} */
+
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #2caae1;
+}
+
+
+.owl-carousel .item {
+    text-align: center;
+    /* background-color: rgb(110, 170, 110); */
+    /* height: 300px; */
+}
+
+.owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+}
+
+/* //////////////////////////////// */
+
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 70px;
+    outline: 0 !important;
+}
+.owl-prev:hover, .owl-next:hover{
+    background-color: #ccc !important;
+}
+
+
+.owl-prev span, .owl-next span{
+    font-size: 60px;
+    color: #787878;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background-color: transparent;
+}
+/* //////////////////////////////// */
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+    background: url(nav-icon.png) no-repeat scroll 0 0;
+    left: -33px;
+}
+
+.owl-carousel .next-slide {
+    background: url(nav-icon.png) no-repeat scroll -24px 0px;
+    right: -33px;
+}
+
+.owl-carousel .prev-slide:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+    background-position: -24px -53px;
+}
+
+span.img-text {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    display: block;
+    text-transform: capitalize;
+}
+
+span.img-text:hover {
+    color: #2caae1;
+}
+
+
+
+
+
+/* custom style */
+
+.owl-carousel .item {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+        background: 0 0;
+        color: inherit;
+        border: none;
+        padding: 12px!important;
+        font: inherit;
+}
+.item .card{
+    border: none !important;
+}
+    
+.item .card .card-body{
+    padding: 0 !important;
+}
+.item .card .card-body .card-title {
+    margin-bottom: 0.3rem !important;
+    margin-top: 0.3rem !important;
+}
+
+.img_text			{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    z-index:10;
+    transition: all 0.5s ease;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+}
+.img_text>div{
+    background-color: white;
+    width: 80px;
+    height:80px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_text>div>.btn{
+    color: #FE2222;
+    position: absolute;
+}
+.img_text>div	a{
+    margin-top: 10px;
+    font-size:12px; 
+    padding:0px 10px;
+    font-weight:500;
+    margin:0px;
+    /* color:#049940; */
+    color:#00337C;
+    line-height:20px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+.img_wrp:hover img	{ 
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 0.5s ease;
+}
+.img_wrp:hover .img_text{
+    opacity:1;
+    transition: all 0.5s ease;
+}
+
+.search-resultSlide .owl-next, .search-resultSlide .owl-prev{
+    bottom: unset;
+    top: unset;
+    margin-top: 20px;
+}
+
+.search-resultSlide button.owl-next, .search-resultSlide button.owl-prev{
+    border: 1px solid rgb(133, 141, 133) !important;
+}
+
+.search-resultSlide .owl-prev{
+    right: 55px !important;
+    left: unset;
+}
+.search-resultSlide .owl-next{
+    right: 10px !important;
+}
+
+@media(max-width: 500px){
+    .owl-carousel .item {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        /* background-color: rgb(110, 170, 110); */
+        /* height: 300px; */
+    }
+    .item .card .card-title{
+        font-size: 12px;
+    }
+    .item .card .book-tile .fas, .item .card .book-tile .far{
+        font-size: 8px;
+    }
+    .item .card .card-body .card-title {
+        margin-bottom: 0.1rem !important;
+        margin-top: 0.1rem !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+            padding: 8px!important;
+    }
+}
