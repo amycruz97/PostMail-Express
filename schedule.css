@@ -1,0 +1,43 @@
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#header{
+    background-color: #161516;
+
+}
+
+.header{
+    background-image: url(./image/frank-mckenna-tjX_sniNzgQ-unsplas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 30vh;
+  
+}
+
+.form{
+    background: rgba(136, 204, 136, 0.07);
+}
+
+
+
+  
+
+
+.checkbox{
+
+    background-color :   rgba(85, 170, 85, 0.2);
+  
+  }
+
+
+  .custom-checkbox{
+  
+    background: rgba(85, 170, 85, 0.2); 
+     height: 3em;
+  }
